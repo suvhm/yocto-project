@@ -21,7 +21,7 @@
 
 
   <!-- 	Meta Clang -->
-  <project name="meta-clang"     path="kraj/meta-clang"        remote="clang"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
+  <!-- project name="meta-clang"     path="kraj/meta-clang"        remote="clang"  revision="refs/heads/scarthgap"  upstream="scarthgap"-->
 
 </manifest>
 
