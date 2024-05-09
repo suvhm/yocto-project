@@ -6,22 +6,25 @@
   <remote name="openembedded"    alias="origin"  fetch="https://git.openembedded.org/" />
   <remote name="yocto"           alias="origin"  fetch="https://git.yoctoproject.org/" />
   <remote name="clang"           alias="origin"  fetch="https://github.com/kraj/meta-clang" />
+  <remote name="custum"          alias="origin"  fetch="https://github.com/suvhm/meta-cn-foss" />
   
   <!-- YOCTO & OE -->
 
   <!-- OpenEmbedded core layer and feature supportive layer -->
-  <project name="openembedded-core"    path="source/openembedded-core"    remote="openembedded"  revision="refs/heads/scarthgap"  upstream="scarthgap" />
-  <project name="meta-openembedded"    path="source/meta-openembedded"    remote="openembedded"  revision="refs/heads/scarthgap"  upstream="scarthgap" />
+  <project name="openembedded-core"    path="distro/openembedded-core"    remote="openembedded"  revision="refs/heads/scarthgap"  upstream="scarthgap" />
+  <project name="meta-openembedded"    path="distro/meta-openembedded"    remote="openembedded"  revision="refs/heads/scarthgap"  upstream="scarthgap" />
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization"  path="source/meta-virtualization"  remote="yocto"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
+  <project name="meta-virtualization"  path="distro/meta-virtualization"  remote="yocto"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
 
   <!-- SELinux layer -->
-  <project name="meta-selinux"         path="source/meta-selinux"         remote="yocto"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
-
+  <project name="meta-selinux"         path="distro/meta-selinux"         remote="yocto"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
 
   <!-- 	Meta Clang -->
   <!-- project name="meta-clang"     path="kraj/meta-clang"        remote="clang"  revision="refs/heads/scarthgap"  upstream="scarthgap"-->
+
+  <!-- 	Meta Cn Foss -->
+  <project name="meta-cn-foss"     path="distro/meta-cn-foss"        remote="custum"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
 
 </manifest>
 
