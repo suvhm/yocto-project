@@ -6,7 +6,7 @@
   <remote name="openembedded"    alias="origin"  fetch="https://git.openembedded.org/" />
   <remote name="yocto"           alias="origin"  fetch="https://git.yoctoproject.org/" />
   <remote name="clang"           alias="origin"  fetch="https://github.com/kraj" />
-  <remote name="custom"          alias="origin"  fetch="git://github.com/suvhm" />
+  <remote name="custom"          alias="origin"  fetch="https://github.com/suvhm" />
   
   <!-- YOCTO & OE -->
 
