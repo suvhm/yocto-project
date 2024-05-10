@@ -5,8 +5,8 @@
   <!-- remote servers to query -->
   <remote name="openembedded"    alias="origin"  fetch="https://git.openembedded.org/" />
   <remote name="yocto"           alias="origin"  fetch="https://git.yoctoproject.org/" />
-  <remote name="clang"           alias="origin"  fetch="https://github.com/kraj/meta-clang" />
-  <remote name="custum"          alias="origin"  fetch="https://github.com/suvhm/meta-cn-foss" />
+  <remote name="clang"           alias="origin"  fetch="https://github.com/kraj" />
+  <remote name="custom"          alias="origin"  fetch="git://github.com/suvhm" />
   
   <!-- YOCTO & OE -->
 
@@ -21,10 +21,10 @@
   <project name="meta-selinux"         path="distro/meta-selinux"         remote="yocto"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
 
   <!-- 	Meta Clang -->
-  <!-- project name="meta-clang"     path="kraj/meta-clang"        remote="clang"  revision="refs/heads/scarthgap"  upstream="scarthgap"-->
+  <project name="meta-clang"           path="kraj/meta-clang"             remote="clang"  revision="refs/heads/scarthgap"  upstream="scarthgap" />
 
   <!-- 	Meta Cn Foss -->
-  <project name="meta-cn-foss"     path="distro/meta-cn-foss"        remote="custum"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
+  <project name="meta-cn-foss"         path="distro/meta-cn-foss"         remote="custom"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
 
 </manifest>
 
