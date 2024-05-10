@@ -13,7 +13,8 @@
   <!-- OpenEmbedded core layer and feature supportive layer -->
   <project name="openembedded-core"    path="distro/openembedded-core"    remote="openembedded"  revision="refs/heads/scarthgap"  upstream="scarthgap" />
   <project name="meta-openembedded"    path="distro/meta-openembedded"    remote="openembedded"  revision="refs/heads/scarthgap"  upstream="scarthgap" />
-
+  <project name="bitbake"              path="distro/bitbake"              remote="openembedded"  revision="2.8" />
+  
   <!-- meta-virtualization -->
   <project name="meta-virtualization"  path="distro/meta-virtualization"  remote="yocto"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
 
