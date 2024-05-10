@@ -21,7 +21,7 @@
   <project name="meta-selinux"         path="distro/meta-selinux"         remote="yocto"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
 
   <!-- 	Meta Clang -->
-  <project name="meta-clang"           path="kraj/meta-clang"             remote="clang"  revision="refs/heads/scarthgap"  upstream="scarthgap" />
+  <project name="meta-clang"           path="distro/meta-clang"             remote="clang"  revision="refs/heads/scarthgap"  upstream="scarthgap" />
 
   <!-- 	Meta Cn Foss -->
   <project name="meta-cn-foss"         path="distro/meta-cn-foss"         remote="custom"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
