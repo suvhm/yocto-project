@@ -7,6 +7,7 @@
   <remote name="yocto"           alias="origin"  fetch="https://git.yoctoproject.org/" />
   <remote name="clang"           alias="origin"  fetch="https://github.com/kraj" />
   <remote name="custom"          alias="origin"  fetch="https://github.com/suvhm" />
+  <remote name="scripts"         alias="origin"  fetch="https://github.com/suvhm" />
   
   <!-- YOCTO & OE -->
 
@@ -27,5 +28,9 @@
   <!-- 	Meta Cn Foss -->
   <project name="meta-cn-foss"         path="distro/meta-cn-foss"         remote="custom"  revision="refs/heads/scarthgap"  upstream="scarthgap"/>
 
-</manifest>
+  <!--  source setup scripts -->
+  <project name="scripts"             path="distro/scripts"                remote="scripts"  revision="refs/heads/scarthgap"  upstream="scarthgap">
+          <linkfile src="setup-env-cn-foss" dest="setup-env"/>
+  </project>
 
+</manifest>
